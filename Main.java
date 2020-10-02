@@ -13,7 +13,7 @@ public class MainProgram {
         for (int i=0;i<nums.length;i++){
             if (hashMap.containsKey(nums[i])) {
                 hashMap.put(nums[i], hashMap.get(nums[i]) + 1);
-                return true;
+                return false;
             } else {
                 hashMap.put(nums[i], 1);
 
