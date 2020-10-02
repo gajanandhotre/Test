@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.HashMap;
 
-public class Main {
+public class MainProgram {
 
     public static void main(String[] args) {
         int a[] = new int[]{1,1,1,1,2,1};
