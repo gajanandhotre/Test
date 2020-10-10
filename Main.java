@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class MainProgram {
 
     public static void main(String[] args) {
-        int a[] = new int[]{1,1,1,1,2,1};
+        int a[] = new int[]{1,1,1,1,2,1,3,3,3,4,4};
         System.out.println(containsDuplicate(a));
         System.out.println("Found Duplicate ") ;
     }
